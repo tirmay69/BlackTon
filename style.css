@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+
+  /* overflow-x: hidden; */
+}
+html {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+a {
+  color: black;
+}
+body {
+  background-attachment: fixed;
+  background-image: url("/Images/background.png");
+}
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+h3 {
+  color: #8c8c8c;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.wrapper {
+  margin-top: 17%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* Nav-Bar CSS Settings */
+.Nav-Bar {
+  width: 100%;
+  z-index: 5;
+  position: fixed;
+  display: flex;
+  padding: 6%;
+  background-color: white;
+}
+
+.Nav-Bar-item {
+  flex: 1;
+  margin-right: 2%;
+}
+.Nav-Bar-item:first-child {
+  flex: 10;
+}
+
+/* Box CSS Settings */
+.Box {
+  width: 324px;
+  margin: 5% 9% 0% 9%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+
+  background: #3f3f3f9a;
+
+  border-radius: 18px;
+}
+.hand {
+  margin-left: 30%;
+  margin-top: -15%;
+}
+.Title-Box {
+  text-align: center;
+  width: 258px;
+  z-index: 4;
+  background: #ffffff;
+  padding: 3% 10% 3% 10%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  opacity: 1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Price-Box {
+  margin-top: 9%;
+  margin-bottom: 9%;
+}
+.pad-5 {
+  padding: 5%;
+}
+
+@media (min-width: 600px) {
+  .Nav-Bar {
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    padding: 3%;
+    padding-bottom: 1.7%;
+    padding-top: 1.7%;
+    background-color: white;
+  }
+  .Nav-Bar-item:first-child {
+    flex: 15;
+  }
+  .Nav-Bar-item {
+    flex: 1;
+    margin-right: 2%;
+  }
+  .hand {
+    width: 98%;
+    margin-left: 0%;
+    margin-top: -15%;
+  }
+  .Box {
+    width: 500px;
+    margin: 5% 9% 0% 9%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+
+    background: #3f3f3f9a;
+
+    border-radius: 18px;
+  }
+  .Title-Box {
+    text-align: center;
+    width: 390px;
+    z-index: 4;
+    background: #ffffff;
+    padding: 3% 10% 3% 10%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    opacity: 1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .wrapper {
+    margin-top: 3%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
