@@ -22,7 +22,7 @@ a {
 }
 body {
   background-attachment: fixed;
-  background-image: url("/Images/background.png");
+  background-image: url("./Images/background.png");
 }
 h1 {
   font-family: "Montserrat";
